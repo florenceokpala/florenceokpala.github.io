@@ -1,3 +1,7 @@
+html{
+scroll-behavior:smooth;
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -64,4 +68,98 @@ p{
     border-radius:50%;
     border:8px solid white;
     box-shadow:0 20px 45px rgba(0,0,0,.2);
+}
+/* ===========================
+   CARD HOVER EFFECT
+=========================== */
+
+.card{
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* ===========================
+   BUTTON HOVER
+=========================== */
+
+.btn{
+    transition:0.3s ease;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+/* ===========================
+   CARD HOVER EFFECT
+=========================== */
+
+.card{
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* ===========================
+   BUTTON HOVER
+=========================== */
+
+.btn{
+    transition:0.3s ease;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+...
+.rounded-circle{
+...
+}
+
+/* CARD HOVER EFFECT */
+
+.card{
+...
+}
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+.display-3{
+    font-size:2.3rem;
+}
+
+.rounded-circle{
+    width:260px!important;
+    height:260px!important;
+}
+
+.navbar-brand{
+    font-size:18px;
+}
+
+h2{
+    text-align:center;
+}
+
+}
+.card:hover{
+...
+}
+
+.btn:hover{
+...
+}
+
+@media(max-width:768px){
+
+...
 }
